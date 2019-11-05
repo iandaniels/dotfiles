@@ -1,0 +1,8 @@
+# Requested conda packages
+pandas
+jupyter
+matplotlib
+seaborn
+
+# Requested pip packages
+seqdiag

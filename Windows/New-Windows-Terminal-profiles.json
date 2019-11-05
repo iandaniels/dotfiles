@@ -1,0 +1,108 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize": 10,
+            "hidden": false
+        },
+        {
+            // Make changes here to the Powershell Core profile
+            "guid" : "{6f7a3b45-fcec-4a05-9364-b6e6e558ef0e}",
+            "name": "PowerShell Core",
+            "commandline": "pwsh",
+            "colorScheme" : "Campbell",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "background": "#224455",
+            "fontSize": 9,
+            "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+            "startingDirectory" : "%USERPROFILE%",
+            "hidden": false
+        },
+        {
+            // Make changes here to the Conda Powershell profile
+            "guid" : "{4cdd719a-0e09-4ed2-8f16-1969607ce577}",
+            "name" : "Conda PowerShell",
+            "commandline" : "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\idaniels\\AppData\\Local\\Continuum\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\idaniels\\AppData\\Local\\Continuum\\miniconda3' \"",
+            "colorScheme" : "Campbell",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize": 9,
+            "icon" : "https://avatars2.githubusercontent.com/u/6392739?s=200&v=4",
+            "startingDirectory" : "%USERPROFILE%",
+            "hidden": false
+        },
+        {
+            // Make changes here to the powershell.exe profile
+            "guid" : "{b5ed9bf9-9eec-4efe-9cd2-9716d3d54843}",
+            "name" : "Developer PowerShell for VS 2019",
+            "commandline" : "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command \"& { Import-Module .\\Common7\\Tools\\vsdevshell\\Microsoft.VisualStudio.DevShell.dll; Enter-VsDevShell -InstanceId a47f8482}\"",
+            "colorScheme" : "Campbell",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize": 10,
+            "icon" : "https://visualstudio.microsoft.com/wp-content/uploads/2019/04/BrandVisualStudioWin2019.png",
+            "startingDirectory" : "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "colorScheme": "UbuntuLegit",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "background" : "#2C001E",
+            "black" : "#4E9A06",
+            "blue" : "#3465A4",
+            "brightBlack" : "#555753",
+            "brightBlue" : "#729FCF",
+            "brightCyan" : "#34E2E2",
+            "brightGreen" : "#8AE234",
+            "brightPurple" : "#AD7FA8",
+            "brightRed" : "#EF2929",
+            "brightWhite" : "#EEEEEE",
+            "brightYellow" : "#FCE94F",
+            "cyan" : "#06989A",
+            "foreground" : "#EEEEEE",
+            "green" : "#300A24",
+            "name" : "UbuntuLegit",
+            "purple" : "#75507B",
+            "red" : "#CC0000",
+            "white" : "#D3D7CF",
+            "yellow" : "#C4A000"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
