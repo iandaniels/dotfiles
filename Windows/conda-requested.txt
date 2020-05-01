@@ -6,3 +6,4 @@ seaborn
 
 # Requested pip packages
 seqdiag
+youtube-dl
