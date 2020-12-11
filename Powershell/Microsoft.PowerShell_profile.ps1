@@ -4,3 +4,8 @@ Set-Theme Paradox
 
 $DefaultUser = 'idaniels'
 
+if ($host.Name -eq 'ConsoleHost')
+{
+    Import-Module PSReadLine
+    Set-PSReadLineOption -EditMode Emacs
+}
