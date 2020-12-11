@@ -25,7 +25,7 @@
             "commandline": "pwsh",
             "colorScheme" : "Campbell",
             "fontFace" : "CascadiaCode Nerd Font",
-            "background": "#224455",
+            //"background": "#224455",
             "fontSize": 9,
             "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
             "startingDirectory" : "%USERPROFILE%",
@@ -66,6 +66,7 @@
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "hidden": false,
             "name": "Ubuntu",
+            "fontSize": 10,
             "colorScheme": "UbuntuLegit",
             "source": "Windows.Terminal.Wsl"
         },
@@ -74,6 +75,20 @@
             "hidden": false,
             "name": "Azure Cloud Shell",
             "source": "Windows.Terminal.Azure"
+        },
+        {
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "hidden": false,
+            "name": "PowerShell",
+            "source": "Windows.Terminal.PowershellCore"
+        },
+        {
+            "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+            "hidden": false,
+            "name": "Ubuntu-20.04",
+            "fontSize": 10,
+            "colorScheme": "UbuntuLegit",
+            "source": "Windows.Terminal.Wsl"
         }
     ],
 
