@@ -4,7 +4,7 @@
 
 Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 
-#install-module Az
+install-module Az -AllowClobber -Scope CurrentUser
 
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
