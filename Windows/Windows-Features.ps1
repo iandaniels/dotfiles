@@ -15,4 +15,3 @@ Enable-WindowsOptionalFeature -FeatureName 'TelnetClient' -All -Online -NoRestar
 Enable-WindowsOptionalFeature -FeatureName 'VirtualMachinePlatform' -All -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName 'Microsoft-Windows-Subsystem-Linux' -All -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName 'Microsoft-Hyper-V' -All -Online
-
