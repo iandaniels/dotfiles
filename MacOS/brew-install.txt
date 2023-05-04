@@ -1,0 +1,7 @@
+# Software to install via brew and others
+brew install --cask keepassxc
+brew install git
+brew install awscli
+brew install azure-cli
+brew install --cask powershell
+
