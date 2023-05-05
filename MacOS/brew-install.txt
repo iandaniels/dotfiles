@@ -5,3 +5,5 @@ brew install awscli
 brew install azure-cli
 brew install --cask powershell
 
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
