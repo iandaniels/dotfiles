@@ -7,3 +7,5 @@ brew install --cask powershell
 
 brew tap microsoft/git
 brew install --cask git-credential-manager-core
+
+brew install drawio
